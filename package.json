@@ -1,0 +1,27 @@
+{
+  "name": "chat-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "images": "^3.2.4",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.4",
+    "koa-body": "^5.0.0",
+    "koa-multer": "^1.0.2",
+    "koa-router": "^10.1.1",
+    "koa2-cors": "^2.0.6",
+    "mongodb": "^4.7.0",
+    "mongoose": "^6.3.8",
+    "nodemailer": "^6.7.5",
+    "nodemon": "^2.0.16",
+    "socket.io": "^4.5.1"
+  }
+}
